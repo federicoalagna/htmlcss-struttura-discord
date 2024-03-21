@@ -34,6 +34,23 @@
   background-color: rgb(215, 192, 17);
 }
 
+.col-60 {
+  width: 40%;
+  border: dotted;
+  height: 180px;
+  background-color: rgb(35, 116, 255);
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.col-30 {
+  width: 30%;
+  border: dotted;
+  height: 180px;
+  background-color: rgb(244, 149, 171);
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
 .text-left {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -55,6 +72,16 @@
 .blue {
   background-color: rgb(33, 33, 122);
   height: 200px;
+  margin: 0 auto;
+}
+.white {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  margin: 0 auto;
+}
+.grey {
+  background-color: rgb(173, 173, 173);
+  height: 250px;
   margin: 0 auto;
 }
 
