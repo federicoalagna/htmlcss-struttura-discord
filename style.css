@@ -4,17 +4,22 @@
   box-sizing: border-box;
 }
 
+.py10 {
+  padding: 10px, 0px;
+}
 .container {
   max-width: 1200px;
-  background-color: lightskyblue;
+
   margin: 0 auto;
-  height: 40px;
 }
 
+header {
+  background-color: lightskyblue;
+  height: 40px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
-  height: 20px;
 
   border: 1px;
   padding: 10px;
@@ -171,4 +176,28 @@ button {
   background-color: pink;
   height: 20px;
   justify-content: space-between;
+}
+
+.bgblack {
+  background-color: rgb(42, 42, 42);
+}
+
+.bgblue {
+  background-color: rgb(33, 33, 122);
+}
+
+.bgpink {
+  background-color: pink;
+}
+
+.bglightblue {
+  background-color: rgb(26, 231, 211);
+}
+
+.bgwhite {
+  background-color: rgb(255, 255, 255);
+}
+
+.bggrey {
+  background-color: rgb(173, 173, 173);
 }
